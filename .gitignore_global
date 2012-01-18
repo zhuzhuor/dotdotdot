@@ -1,5 +1,6 @@
 *.swp
 *.pyc
+*~
 
 # Compiled source #
 ###################
@@ -16,4 +17,3 @@
 ehthumbs.db
 Icon?
 Thumbs.db
-.~
