@@ -9,3 +9,4 @@ export PATH=$PATH:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$ANDROID_NDK
 
 alias ll='ls -alF'
 alias la='ls -A'
+alias diff='colordiff'
