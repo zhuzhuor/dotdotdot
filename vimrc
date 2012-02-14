@@ -14,3 +14,5 @@ set smarttab
 filetype indent on
 filetype on
 filetype plugin on
+
+set smartindent
