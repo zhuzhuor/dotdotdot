@@ -1,5 +1,6 @@
+call pathogen#infect()
+
 set background=dark
-syntax on
 set nohls
 set expandtab
 set textwidth=0
@@ -11,8 +12,8 @@ set incsearch
 set ignorecase
 set wildmenu
 set smarttab
-filetype indent on
-filetype on
-filetype plugin on
 
-set smartindent
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
