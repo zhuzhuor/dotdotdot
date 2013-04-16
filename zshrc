@@ -33,18 +33,11 @@ ZSH_THEME="zhuzhuor"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git svn npm pip sublime urltools encode64)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export USE_CCACHE=1
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib:.
-
-export ANDROID_SDK=~/android-sdk-linux
-export ANDROID_NDK=~/android-ndk-r7
-export PATH=$PATH:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$ANDROID_NDK
-
 alias ll='ls -alF'
 alias la='ls -A'
 alias diff='colordiff'
