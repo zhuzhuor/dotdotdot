@@ -27,3 +27,5 @@ autocmd BufNewFile,BufRead *.wsgi set ft=python
 let g:syntastic_c_check_header = 1
 let g:syntastic_c_auto_refresh_includes = 1
 let g:syntastic_c_compiler_options = ' -fasm-blocks'
+
+let mapleader=","
